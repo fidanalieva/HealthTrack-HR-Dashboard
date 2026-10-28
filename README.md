@@ -6,7 +6,7 @@ A four-page Power BI report analysing headcount, budget, turnover and pay for a 
 
 **Live report:** https://app.powerbi.com/links/K6uWdxW0n7?ctid=43728c20-4447-4b27-ac2e-4bdabb3c0121&pbi_source=linkShare&bookmarkGuid=a2a27e97-03d9-44ce-afcf-1b7011c492d4
 
-![Headcount Overview](images/page-1-headcount-overview.png)
+![Headcount Overview](images/Headcount-Overview)
 
 ## Business questions
 
@@ -76,12 +76,12 @@ A star schema with two fact tables and five dimensions.
 
 Measures are organised in display folders: Headcount, Department, Turnover and Salary.
 
-## Assumptions and deviations from the brief
+## Design decisions
 
-- The brief's headcount measure ignored the Year slicer, so it was replaced with the point-in-time `Headcount` described above.
-- The brief used a rolling 6-month attrition line. The reference design uses 3 months, so this report follows the reference.
-- The Status slicer is not part of the brief's Page 1 spec. It was kept to match the reference design, and it does not affect `Headcount`, which is built from hire and exit records.
-- Colours and fonts follow the brief's palette (navy, teal, amber, green, red, slate) with Calibri throughout.
+- **Headcount is point-in-time.** A simple count of "Active" employees can't respond to the Year slicer, so `Headcount` is calculated from hire and exit records up to the selected date.
+- **Rolling 3-month exits.** A 3-month window shows turnover trends more clearly than 6 months for this dataset.
+- **Status slicer kept.** It's available for filtering the report, but it doesn't affect `Headcount`, which is built from hire and exit records.
+- **Consistent styling.** Navy, teal, amber, green, red and slate palette, with Calibri throughout.
 
 ## Repository contents
 
