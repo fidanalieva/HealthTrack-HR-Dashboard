@@ -6,7 +6,7 @@ A four-page Power BI report analysing headcount, budget, turnover and pay for a 
 
 **Live report:** https://app.powerbi.com/links/K6uWdxW0n7?ctid=43728c20-4447-4b27-ac2e-4bdabb3c0121&pbi_source=linkShare&bookmarkGuid=a2a27e97-03d9-44ce-afcf-1b7011c492d4
 
-![Headcount Overview](images/Headcount-Overview.png)
+![Headcount Overview](Images/Headcount%20Overview.png)
 
 ## Business questions
 
