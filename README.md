@@ -1,10 +1,10 @@
 # HealthTrack HR: Workforce Analytics Dashboard
 
-A four-page Power BI report analysing headcount, budget, turnover and pay for a fictional healthcare company, built as Portfolio Project 2 of a Power BI bootcamp.
+A four-page Power BI report analysing headcount, budget, turnover and pay for a fictional healthcare company, built as Portfolio Project.
 
-**Author:** [Your name] · **Tools:** Power BI Desktop, DAX, PowerPoint · **Data as of:** Nov 2024
+**Author:** Fidan Aliyeva · **Tools:** Power BI Desktop, DAX, PowerPoint · **Data as of:** Nov 2024
 
-**Live report:** [Power BI Service link, if sharing is allowed]
+**Live report:** https://app.powerbi.com/links/K6uWdxW0n7?ctid=43728c20-4447-4b27-ac2e-4bdabb3c0121&pbi_source=linkShare&bookmarkGuid=a2a27e97-03d9-44ce-afcf-1b7011c492d4
 
 ![Headcount Overview](images/page-1-headcount-overview.png)
 
@@ -20,7 +20,7 @@ A four-page Power BI report analysing headcount, budget, turnover and pay for a 
 | Metric | Value |
 |---|---|
 | Active employees | 194 (+12.8% vs prior year) |
-| Budget attainment | 86% (194 of 225 budgeted positions) |
+| Budget attainment | 86% (14% below total budget) |
 | Turnover rate | 19.5%, above the 10–15% healthy range |
 | Exit type | 29 voluntary (69%), 13 involuntary (31%) |
 | Highest turnover | Customer Success 29.4%, Sales 28.9% |
@@ -46,7 +46,7 @@ Navigation, a shared filter bar (Year, Department, Status) and a Reset Filters b
 
 ## Data
 
-Six CSV files from an HR system, provided by the bootcamp: departments (8), salary bands (6), roles (27), employees (236: 194 active, 42 terminated), hiring records (236) and exit records (42). Hire dates run 2018–2024 and exits 2022–2024.
+Six CSV files from an HR system (sample data): departments (8), salary bands (6), roles (27), employees (236: 194 active, 42 terminated), hiring records (236) and exit records (42). Hire dates run 2018–2024 and exits 2022–2024.
 
 ## Data model
 
@@ -88,7 +88,7 @@ Measures are organised in display folders: Headcount, Department, Turnover and S
 ```
 HealthTrack_Dashboard.pbix        Power BI report
 HealthTrack_Summary_Slide.pptx    One-slide executive summary
-images/                           Page screenshots used in this README
+images/                           PDF file of board screenshots
 README.md
 ```
 
