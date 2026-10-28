@@ -1,0 +1,9 @@
+DepartmentID,DepartmentName,DepartmentHead,BudgetHeadcount,CostCenter
+D01,Engineering,Sarah Mitchell,55,CC-ENG
+D02,Sales,James Okafor,40,CC-SAL
+D03,Marketing,Priya Sharma,20,CC-MKT
+D04,Human Resources,Linda Torres,15,CC-HR
+D05,Finance,Robert Chen,18,CC-FIN
+D06,Operations,Marco Rossi,25,CC-OPS
+D07,Product,Aisha Patel,22,CC-PRD
+D08,Customer Success,Tom Nguyen,30,CC-CS

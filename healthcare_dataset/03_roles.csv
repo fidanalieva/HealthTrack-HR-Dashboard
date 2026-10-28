@@ -1,0 +1,28 @@
+RoleID,RoleTitle,RoleLevel,DepartmentID,FunctionArea,DefaultBandID
+R01,Junior Software Engineer,Junior,D01,Engineering,SB1
+R02,Software Engineer,Mid,D01,Engineering,SB2
+R03,Senior Software Engineer,Senior,D01,Engineering,SB3
+R04,Lead Engineer,Lead,D01,Engineering,SB4
+R05,Engineering Manager,Manager,D01,Engineering,SB5
+R06,Sales Development Rep,Junior,D02,Sales,SB1
+R07,Account Executive,Mid,D02,Sales,SB2
+R08,Senior Account Executive,Senior,D02,Sales,SB3
+R09,Sales Manager,Manager,D02,Sales,SB5
+R10,Marketing Coordinator,Junior,D03,Marketing,SB1
+R11,Marketing Analyst,Mid,D03,Marketing,SB2
+R12,Senior Marketing Manager,Senior,D03,Marketing,SB3
+R13,Marketing Director,Director,D03,Marketing,SB6
+R14,HR Coordinator,Junior,D04,People & Culture,SB1
+R15,HR Business Partner,Mid,D04,People & Culture,SB2
+R16,Talent Acquisition Spec.,Mid,D04,People & Culture,SB2
+R17,HR Director,Director,D04,People & Culture,SB6
+R18,Financial Analyst,Mid,D05,Finance,SB2
+R19,Senior Financial Analyst,Senior,D05,Finance,SB3
+R20,Finance Manager,Manager,D05,Finance,SB5
+R21,Operations Analyst,Mid,D06,Operations,SB2
+R22,Operations Manager,Manager,D06,Operations,SB5
+R23,Product Manager,Mid,D07,Product,SB3
+R24,Senior Product Manager,Senior,D07,Product,SB4
+R25,Customer Success Assoc.,Junior,D08,Customer Success,SB1
+R26,Customer Success Manager,Mid,D08,Customer Success,SB2
+R27,Senior CS Manager,Senior,D08,Customer Success,SB3
