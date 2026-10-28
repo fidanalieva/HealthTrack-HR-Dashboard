@@ -97,3 +97,7 @@ README.md
 1. Download the `.pbix` file.
 2. Open it in Power BI Desktop (free for Windows).
 3. If prompted, refresh the data and point it to your local copy of the six CSV files.
+
+## License
+
+Portfolio project using synthetic sample data. Not for commercial use.
